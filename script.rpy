@@ -1,4 +1,4 @@
-﻿label start:
+label start:
 
     "ewfyg" "start"
 
@@ -399,12 +399,12 @@
                 self._5_image = FlyView(View((1770, 150), Image("5_photo.jpg")), speed=10, box_view=self._box_view)
                 self._6_image = FlyView(View((2165, 150), Image("6_photo.jpg")), speed=10, box_view=self._box_view)
 
-                self._text_input_for_1_image = FlyView(FieldView((104, 398), (280, 32), self._text_color, EditText("ст.", (5, 0))), speed=10, box_view=self._box_view)
-                self._text_input_for_2_image = FlyView(FieldView((499, 398), (280, 32), self._text_color, EditText("ст.", (5, 0))), speed=10, box_view=self._box_view)
-                self._text_input_for_3_image = FlyView(FieldView((894, 398), (280, 32), self._text_color, EditText("ст.", (5, 0))), speed=10, box_view=self._box_view)
-                self._text_input_for_4_image = FlyView(FieldView((1384, 398), (280, 32), self._text_color, EditText("ст.", (5, 0))), speed=10, box_view=self._box_view)
-                self._text_input_for_5_image = FlyView(FieldView((1779, 398), (280, 32), self._text_color, EditText("ст.", (5, 0))), speed=10, box_view=self._box_view)
-                self._text_input_for_6_image = FlyView(FieldView((2174, 398), (280, 32), self._text_color, EditText("ст.", (5, 0))), speed=10, box_view=self._box_view)
+                self._text_input_for_1_image = FlyView(FieldView((104, 398), (280, 32), self._text_color, EditText("ст.",  (5, 0), max_symbol=14)), speed=10, box_view=self._box_view)
+                self._text_input_for_2_image = FlyView(FieldView((499, 398), (280, 32), self._text_color, EditText("ст.",  (5, 0), max_symbol=14)), speed=10, box_view=self._box_view)
+                self._text_input_for_3_image = FlyView(FieldView((894, 398), (280, 32), self._text_color, EditText("ст.",  (5, 0), max_symbol=14)), speed=10, box_view=self._box_view)
+                self._text_input_for_4_image = FlyView(FieldView((1384, 398), (280, 32), self._text_color, EditText("ст.", (5, 0), max_symbol=14)), speed=10, box_view=self._box_view)
+                self._text_input_for_5_image = FlyView(FieldView((1779, 398), (280, 32), self._text_color, EditText("ст.", (5, 0), max_symbol=14)), speed=10, box_view=self._box_view)
+                self._text_input_for_6_image = FlyView(FieldView((2174, 398), (280, 32), self._text_color, EditText("ст.", (5, 0), max_symbol=14)), speed=10, box_view=self._box_view)
 
                 self._text_input = [self._text_input_for_1_image, self._text_input_for_2_image, self._text_input_for_3_image, self._text_input_for_4_image, self._text_input_for_5_image, self._text_input_for_6_image]
 
